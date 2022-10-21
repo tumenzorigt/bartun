@@ -6,11 +6,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .col-2 .mur{
     display: flex;
     justify-content: space-between;
+}
+.col-3{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px; 
+    padding: 5px 5px;  
 }
 .cta{
     background-color: rgb(243, 230, 207);
@@ -19,7 +24,7 @@
     color: orange;
 }
 .mur li{
-    padding: 30px 12px ;
+    padding: 30px 25px;
 }
 li{
     list-style: none;
@@ -31,8 +36,6 @@ a{
 .container{
     max-width: 1280px;
     margin: 0 auto;
-    position: relative;
-    text-align: top;
 }
 .vip{
     background-color: orange;
@@ -49,8 +52,28 @@ footer{
 .more{
     color: orange;
 }
-.first{
-    display: flex;
-    justify-content: space-between;
+h1{
+    width: 70%;
+    font-size: 60px;
+    padding: 10px;
 }
-
+h2{
+    width: 60%;
+    font-size: 30px;
+}
+.experience{
+    width: 640px;
+    height: 280px;
+}
+.too{
+    font-size: 50px;
+    color: orange;
+}
+.second-1{
+    width: 60%;
+    padding: 3rem;
+    font-size: large;
+}
+.col-2{
+    padding: 30px;
+}
